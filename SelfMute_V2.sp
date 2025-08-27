@@ -1312,7 +1312,7 @@ void DB_Tables() {
 												... "`id` INTEGER PRIMARY KEY AUTOINCREMENT," 
 												... "`client_steamid` varchar(20) NOT NULL," 
 												... "`mute_type` int(2) NOT NULL,"
-												... "`mute_duration` int(2) NOT NULL"
+												... "`mute_duration` int(2) NOT NULL,"
 												...	"PRIMARY KEY(`id`))");
 																						
 		T_sqliteTables.AddQuery(query0);
