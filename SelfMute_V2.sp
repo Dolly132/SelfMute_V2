@@ -25,7 +25,7 @@
 
 #define PLUGIN_PREFIX "{green}[Self-Mute]{default}"
 
-// /* Please remove this when you compile the plugin, i did this because i dont have the include file */
+/* Please remove this when you compile the plugin, i did this because i dont have the include file */
 native bool IsClientTalking(int client);
 native void CCC_UpdateIgnoredArray(bool[] array);
 
