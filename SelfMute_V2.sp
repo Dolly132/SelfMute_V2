@@ -1338,7 +1338,7 @@ void DB_Tables() {
 												... "`group_name` varchar(32) NOT NULL," 
 												... "`group_filter` varchar(20) NOT NULL,"
 												... "`text_chat` int(2) NOT NULL,"
-												... "`voice_chat` int(2) NOT NULL)"
+												... "`voice_chat` int(2) NOT NULL,"
 												... "UNIQUE KEY(`client_steamid`, `group_filter`))"); 
 												
 		T_sqliteTables.AddQuery(query2);
