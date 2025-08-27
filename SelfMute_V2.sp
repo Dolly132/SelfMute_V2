@@ -1308,7 +1308,7 @@ void DB_Tables() {
 		Transaction T_sqliteTables = SQL_CreateTransaction();
 		
 		char query0[1024];		
-		g_hDB.Format(query0, sizeof(query0), "CREATE TABLE IF NOT EXISTS `clients_mute`("
+		g_hDB.Format(query0, sizeof(query0), "CREATE TABLE IF NOT EXISTS `clients_data`("
 												... "`id` INTEGER PRIMARY KEY AUTOINCREMENT," 
 												... "`client_steamid` varchar(20) NOT NULL," 
 												... "`mute_type` int(2) NOT NULL,"
